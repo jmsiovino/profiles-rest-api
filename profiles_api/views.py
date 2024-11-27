@@ -1,7 +1,10 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
+<<<<<<< HEAD
 from rest_framework import viewsets
+=======
+>>>>>>> ceb0d5257463d3b0dfe938582bd5f40656f1702c
 
 from profiles_api import serializers
 #this is ours from the serializers.py file
@@ -35,6 +38,7 @@ class HelloApiView(APIView):
                 serializer.errors,
                 status=status.HTTP_400_BAD_REQUEST,
             )
+<<<<<<< HEAD
 
     def put(self, request, pk=None):
         """Handle updating an object"""
@@ -92,3 +96,5 @@ class HelloViewSet(viewsets.ViewSet):
     def destroy(self, request, pk=None):
         """Handle removing an object"""
         return Response({'http_method': 'DELETE'})       
+=======
+>>>>>>> ceb0d5257463d3b0dfe938582bd5f40656f1702c
