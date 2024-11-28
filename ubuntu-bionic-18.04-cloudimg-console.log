@@ -19,7 +19,7 @@
 [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
 [    0.000000] Hypervisor detected: KVM
 [    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
-[    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT
 [    0.000000] CPU MTRRs all blank - virtualized system.
 [    0.000000] found SMP MP-table at [mem 0x0009fbf0-0x0009fbff]
 [    0.000000] Scanning 1 areas for low memory corruption
@@ -44,11 +44,7 @@
 [    0.000000] NODE_DATA(0) allocated [mem 0x3ffc5000-0x3ffeffff]
 [    0.000000] kvm-clock: cpu 0, msr 0:3ff44001, primary cpu clock
 [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
-<<<<<<< HEAD
 [    0.000000] kvm-clock: using sched offset of 3853206381 cycles
-=======
-[    0.000000] kvm-clock: using sched offset of 3735438867 cycles
->>>>>>> ceb0d5257463d3b0dfe938582bd5f40656f1702c
 [    0.000000] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
 [    0.000000] Zone ranges:
 [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
@@ -644,7 +640,7 @@ Begin: Running /scripts/local-premount ... [   12.030071] Btrfs loaded, crc32c=c
 Scanning for Btrfs filesystems
 done.
 Begin: Will now check root file system ... fsck from util-linux 2.31.1
-[/sbin/fsck.ext4 (1) -- /dev/sda1] fsck.ext4 -a -C0 /dev/sda1 
+[/sbin/fsck.ext4 (1) -- /dev/sda1] fsck.ext4 -a -C0 /dev/sda1
 cloudimg-rootfs: recovering journal
 <<<<<<< HEAD
 cloudimg-rootfs: clean, 107657/5120000 files, 769090/10485499 blocks
@@ -1121,4 +1117,4 @@ Mounted Huge Pages File System.
 
 Ubuntu 18.04.6 LTS ubuntu-bionic ttyS0
 
-ubuntu-bionic login: 
+ubuntu-bionic login:
